@@ -1,4 +1,4 @@
-# Hands On AWS Certified Data Engineer - Associate (DEA-C01) Full Course 
+# Hands On AWS Glue Course
 
 # Introduction 
 
