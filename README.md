@@ -2,7 +2,7 @@
 
 # Introduction 
 
-This GitHub Repo contains the code alongside explanations for this youtube video. 
+This GitHub Repo contains the code alongside explanations for this [youtube video](https://youtu.be/ZvJSaioPYyo). 
 
 The youtube video is a tutoral through the updated AWS Glue Service on the AWS Console UI. The video and rep will cover; 
 - What is AWS Glue? 
@@ -71,8 +71,6 @@ AWS Glue is a serverless data integration service that makes it easier to discov
 # Why do we Use AWS Glue?  
 AWS Glue offers a fully manged serverless ETL tool. This removes the overhead, and barriers to entry, when there is a requirement for an ETL Service in AWS. 
 
-# Setup Work For The Tutorial
-
 # AWS Glue Data Catalog 
 The AWS Glue Data Catalog is your persistent technical metadata store. It is a managed service that you can use to store, annotate, and share metadata in the AWS Cloud.
 
@@ -84,9 +82,6 @@ The metadata definition that represents your data. The data resides in its origi
 
 # Partitions in AWS
 Folders where data is stored on S3, which are physical entities, are mapped to partitions, which are logical entities i.e. Columns in the Glue table.
-
-# AWS Glue Crawler 
-You can use an AWS Glue crawler to populate the AWS Glue Data Catalog with databases and tables. This is the primary method used by most AWS Glue users. A crawler can crawl multiple data stores in a single run. Upon completion, the crawler creates or updates one or more tables in your Data Catalog. Extract, transform, and load (ETL) jobs that you define in AWS Glue use these Data Catalog tables as sources and targets. The ETL job reads from and writes to the data stores that are specified in the source and target Data Catalog tables.
 
 # AWS Glue Connections
 A Data Catalog object that contains the properties that are required to connect to a particular data store. Glue Connections can be used to connect to RDS, Redshift, S3, and other datastores. The connections can be used repeatedly throughout ETL code to avoid hard coding connection string details into scripts. 
@@ -111,6 +106,10 @@ Supported Connections;
 - Network (designates a connection to a data source that is in an Amazon Virtual Private Cloud (Amazon VPC))
 - Aurora (supported if the native JDBC driver is being used. Not all driver features can be leveraged)
 
+# AWS Glue Crawler 
+You can use an AWS Glue crawler to populate the AWS Glue Data Catalog with databases and tables. This is the primary method used by most AWS Glue users. A crawler can crawl multiple data stores in a single run. Upon completion, the crawler creates or updates one or more tables in your Data Catalog. Extract, transform, and load (ETL) jobs that you define in AWS Glue use these Data Catalog tables as sources and targets. The ETL job reads from and writes to the data stores that are specified in the source and target Data Catalog tables.
+
+
 # AWS Glue ETL 
 An AWS Glue job encapsulates a script that connects to your source data, processes it, and then writes it out to your data target. Typically, a job runs extract, transform, and load (ETL) scripts. Jobs can run scripts designed for Apache Spark and Ray runtime environments. Jobs can also run general-purpose Python scripts (Python shell jobs.) AWS Glue triggers can start jobs based on a schedule or event, or on demand. You can monitor job runs to understand runtime metrics such as completion status, duration, and start time.
 
@@ -126,7 +125,7 @@ AWS Glue can write output files in several data formats. Each job type may suppo
 
 # Useful Links
 
-- [youtube video](https://youtu.be/iGvj1gjbwl0) 
+- [youtube video](https://youtu.be/ZvJSaioPYyo) 
 - [website](https://www.johnnychivers.co.uk)
 - [buy me a coffee](https://www.buymeacoffee.com/johnnychivers)
 
